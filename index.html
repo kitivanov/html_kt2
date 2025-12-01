@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Квентин Тарантино — фильмы и творчество</title>
+  <meta name="description" content="Лендинг, посвящённый жизни и фильмам Квентина Тарантино: биография, фильмография, галерея, награды и факты.">
+</head>
+<body>
+  <!-- Ссылка пропуска к основному содержимому -->
+  <a href="#main">Перейти к основному содержимому</a>
+
+  <!-- вводная часть сайта -->
+  <header>
+    <h1>Квентин Тарантино</h1>
+    <p>Режиссёр, сценарист и культурный феномен современной кинематографии</p>
+
+    <!-- основная навигация по лендингу; семантически обозначает блок навигации -->
+    <nav aria-label="Основная навигация">
+      <a href="#about">О режиссёре</a>
+      <a href="#films">Фильмы</a>
+      <a href="#themes">Темы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <!-- единственный основной блок уникального содержимого страницы -->
+  <main id="main">
+
+    <!-- ключевая секция с выделенной фотографией и датами -->
+    <section id="hero" aria-labelledby="hero-title">
+      <h2 id="hero-title">Стиль, диалоги, саундтреки</h2>
+      <p>Нестандартный подход к жанрам, отсылка к поп‑культуре и культовые сцены — так выглядит кинематограф Тарантино.</p>
+      <figure>
+        <img src="images/tarantino-hero.jpg" alt="Квентин Тарантино на съёмочной площадке">
+        <figcaption>Квентин Тарантино во время съёмок.</figcaption>
+      </figure>
+      <p>Дата рождения: <time datetime="1963-03-27">27 марта 1963</time>.</p>
+    </section>
+
+    <!-- вспомогательная справка (например, рекомендации фильмов). -->
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">Краткая биография</h2>
+      <p>Квентин Тарантино — американский режиссёр, сценарист и продюсер. Свою популярность он приобрёл благодаря нестандартной структуре сюжетов, чёрному юмору и эклектичному музыкальному оформлению.</p>
+
+      <aside aria-labelledby="bio-note">
+        <h3 id="bio-note">Совет</h3>
+        <p>Если вы новичок — начните с <mark>«Криминального чтива»</mark> или <mark>«Бешеных псов»</mark> для знакомства с фирменным стилем.</p>
+      </aside>
+    </section>
+
+    <!-- каждый фильм — отдельный article. -->
+    <h2 id="films-title">Фильмография</h2>
+    <section id="films" aria-labelledby="films-title">
+      <article aria-labelledby="film-reservoir-title">
+        <header>
+          <h3 id="film-reservoir-title">Бешеные псы (Reservoir Dogs) — 1992</h3>
+        </header>
+        <p>Дебютный полнометражный фильм Тарантино о неудачном ограблении и последствиях для группы преступников.</p>
+        <figure>
+          <img src="images/reservoir-dogs.jpg" alt="Постер фильма 'Бешеные псы'">
+          <figcaption>«Бешеные псы» (1992).</figcaption>
+        </figure>
+        <footer>
+          <p>Премьера: <time datetime="1992-10-23">23 октября 1992</time>.</p>
+        </footer>
+      </article>
+
+      <article aria-labelledby="film-pulp-title">
+        <header>
+          <h3 id="film-pulp-title">Криминальное чтиво (Pulp Fiction) — 1994</h3>
+        </header>
+        <p>Нелинейный сюжет и запоминающиеся диалоги сделали фильм культовым. Номинации и награды укрепили статус режиссёра.</p>
+        <figure>
+          <img src="images/pulp-fiction.jpg" alt="Сцена из 'Криминального чтива'">
+          <figcaption>«Криминальное чтиво» — культовый фильм 1994 года.</figcaption>
+        </figure>
+        <footer>
+          <p>Премьера: <time datetime="1994-05-21">21 мая 1994</time>.</p>
+        </footer>
+      </article>
+
+      <article aria-labelledby="kill-bill-title">
+        <header>
+          <h3 id="kill-bill-title">Убить Билла — 2003</h3>
+        </header>
+        <p>Стильная мясорубка.</p>
+        <figure>
+          <img src="images/kill-bill.jpg" alt="Сцена из 'Криминального чтива'">
+          <figcaption>Фильм рассказывает историю женщины по имени Беатрикс Киддо, в прошлом бывшей наёмной убийцы.</figcaption>
+        </figure>
+        <footer>
+          <p>Премьера: <time datetime="1994-09-29">29 сентября 2003</time>.</p>
+        </footer>
+      </article>
+
+    </section>
+
+    <!-- секция, описывающая повторяющиеся мотивы. -->
+    <section id="themes" aria-labelledby="themes-title">
+      <h2 id="themes-title">Темы и приёмы</h2>
+      <ul>
+        <li>Нелинейный сюжет и монтаж</li>
+        <li>Диалоги как драйвер сцены</li>
+        <li>Вестерн, криминал, боевик</li>
+        <li>Эклектичные саундтреки</li>
+      </ul>
+    </section>
+
+    <!-- часто задаваемые вопросы с раскрывающимися ответами через details/summary -->
+    <section id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Частые вопросы</h2>
+
+      <details>
+        <summary>Какой его самый известный фильм?</summary>
+        <p>«Криминальное чтиво» часто называется самым влиятельным и известным фильмом Тарантино.</p>
+      </details>
+
+      <details>
+        <summary>Пишет ли он сценарии сам?</summary>
+        <p>Да. Тарантино известен как автор сценариев к большинству своих фильмов.</p>
+      </details>
+
+      <details>
+        <summary>Продолжит ли он снимать фильмы в будущем?</summary>
+        <p>Режиссёр неоднократно говорил о намерении завершить карьеру после определённого числа картин — будущее остаётся предметом обсуждений.</p>
+      </details>
+    </section>
+
+    <!-- контакты, источники и ссылки на официальные ресурсы -->
+    <section id="contacts" aria-labelledby="contacts-title">
+      <h2 id="contacts-title">Контакты и источники</h2>
+      <p>Официальные ресурсы и дополнительные материалы — ссылки на публикации и интервью.</p>
+      <ul>
+        <li><a href="#">Официальные интервью</a></li>
+        <li><a href="#">Критические статьи и обзоры</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- нижний колонтитул сайта с дополнительной навигацией и правовой информацией -->
+  <footer>
+    <nav aria-label="Навигация в подвале">
+      <a href="#">Правовая информация</a>
+      <a href="#">Источник материалов</a>
+    </nav>
+    <p>© <time datetime="2025">2025</time> Лендинг-проект для Квентина Тарантино.</p>
+  </footer>
+</body>
+</html>
